@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nyastra Pulse</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#2563EB" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #F8FAFC;
+      color: #1E293B;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    .container {
+      max-width: 480px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+    header {
+      background: #2563EB;
+      color: white;
+      padding: 24px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .tagline {
+      font-size: 16px;
+      opacity: 0.9;
+      margin-top: 8px;
+    }
+    .content {
+      padding: 24px;
+    }
+    .input-group {
+      margin: 20px 0;
+    }
+    input {
+      width: 100%;
+      padding: 14px;
+      border: 1px solid #E2E8F0;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+    button {
+      background: #2563EB;
+      color: white;
+      border: none;
+      padding: 14px;
+      width: 100%;
+      font-size: 16px;
+      font-weight: 600;
+      border-radius: 8px;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    .features {
+      margin-top: 30px;
+      font-size: 15px;
+      color: #475569;
+    }
+    .features li {
+      margin: 10px 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #64748B;
+      font-size: 14px;
+      border-top: 1px solid #E2E8F0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>न्यस्त्र | Nyastra</h1>
+      <div class="tagline">Know your case. Take action.</div>
+    </header>
+    <div class="content">
+      <p>Enter your case number to get real-time updates in Hindi or English.</p>
+      <div class="input-group">
+        <input type="text" placeholder="e.g. CRIMINAL APPEAL NO. 123/2022" />
+      </div>
+      <button onclick="alert('Case tracking coming soon!')">🔍 Track Case</button>
+
+      <div class="features">
+        <ul>
+          <li>✅ Real-time court updates</li>
+          <li>💬 AI Legal Assistant (Hindi/English)</li>
+          <li>📞 Talk to a Lawyer (₹99 consult)</li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      Made for 1.4B Indians who deserve access to justice.
+    </footer>
+  </div>
+</body>
+</html>
